@@ -1,0 +1,13 @@
+.navigation {
+    background-color: #ff33e450;
+}
+
+a.blacktext {
+    color: black;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
