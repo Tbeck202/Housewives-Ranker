@@ -6,11 +6,11 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<h1>This will be the home page</h1>')
+    return render(request, 'hwranker/home.html')
 
 
 def rhony(request):
-    return HttpResponse('<h1>This will be the RHONY page</h1>')
+    return render(request, 'hwranker/rhony.html')
 
 
 def rhonj(request):
